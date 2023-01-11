@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">TOWN CENSUS</div>
+        <div class ="Question"><div class="flex1"><form><div class="left"><label for="fullname">First Name:</label><br><input type="text" id="fullname" name="fullname"></form></div><div class="right"><form><label for="fullname">Last Name:</label><br><input type="text" id="fullname" name="fullname"></div></form></div></div>
+        <div class="Question"><div class="flex2">
+            <div class="m"><input type="checkbox" id="m" name="m" value="Male"><label for="m">Male</label></div>
+            <div class="f"><input type="checkbox" id="f" name="f" value="Female"><label for="f">Female</label></div>
+        </div></div>
+        <div class="Question add"><form><label for="Address">ADDRESS: </label><br><textarea name="thetext" rows="2" cols="50"></textarea></form></div>
+        <div class="Question pin"><form><label for="pincode"> PINCODE: </label><br><textarea name="code" rows="1" cols="20"></textarea></form></div>
+        <div class="Question age"><form><label for="age">AGE: </label><br><textarea name="age" rows="1" cols="5"></textarea></form></div>
+        <div class="Question house"><label for="HouseholdSize">Household Size:</label><br>
+        <select name="members" id="members">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="4+">4+</option>
+        </select></div>
+        <div class="Question sub">CLICK BELOW TO SUBMIT</div>
+        <div class="Question but"><input type="submit" value="SUBMIT"></div>
+    </div>
+    
+</body>
+</html>
